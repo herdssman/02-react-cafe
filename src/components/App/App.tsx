@@ -4,7 +4,7 @@ import  CafeInfo  from '../CafeInfo/cafe-info'
 import type { VoteType } from '../../types/votes'
 import VoteOptions from '../VoteOptions/vote-options'
 import VoteStats from '../VoteStats/vote-stats'
-import Notifications from '../Notifications/notifications'
+import Notification from '../Notification/notification'
 
 
 
@@ -49,7 +49,7 @@ export default function App() {
           <VoteStats
           votes={votes}
           totalVotes={totalVotes}
-            positiveRate={rate} /> : <Notifications />}
+            positiveRate={rate} /> : <Notification />}
         
       </div>
       </>
