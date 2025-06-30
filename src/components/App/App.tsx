@@ -1,10 +1,10 @@
 import { useState } from 'react'
 import css from './App.module.css'
-import  CafeInfo  from './cafe-info/cafe-info'
-import type { VoteType } from '../types/votes'
-import VoteOptions from './vote-options/vote-options'
-import VoteStats from './vote-stats/vote-stats'
-import Notifications from './notifications/notifications'
+import  CafeInfo  from '../cafe-info/cafe-info'
+import type { VoteType } from '../../types/votes'
+import VoteOptions from '../vote-options/vote-options'
+import VoteStats from '../vote-stats/vote-stats'
+import Notifications from '../notifications/notifications'
 
 
 
