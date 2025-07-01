@@ -7,7 +7,6 @@ import VoteStats from '../VoteStats/VoteStats'
 import Notification from '../Notification/Notification' 
 
 
-
 export default function App() {
 
   const [votes, setVotes] = useState<Votes>({
