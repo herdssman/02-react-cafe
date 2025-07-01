@@ -1,5 +1,4 @@
-// import clsx from "clsx";
-import css from "./cafe-info.module.css";
+import css from "./CafeInfo.module.css";
 
 export default function CafeInfo () {
   return (
