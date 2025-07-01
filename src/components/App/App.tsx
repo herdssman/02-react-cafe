@@ -3,8 +3,9 @@ import css from './App.module.css'
 import  CafeInfo  from '../CafeInfo/CafeInfo'
 import type { VoteType, Votes } from '../../types/votes'
 import VoteOptions from '../VoteOptions/VoteOptions'
+import Notification from '../Notification/Notification'
 import VoteStats from '../VoteStats/VoteStats'
-import Notification from '../Notification/notification' 
+
 
 
 export default function App() {
